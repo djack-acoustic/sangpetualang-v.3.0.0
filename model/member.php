@@ -17,10 +17,10 @@
 		
 			if($pass==$cpass){
 			$sql = " INSERT INTO member set 
-							  nama = \"".$_POST[nama]."\",
-							  username = \"".$_POST[username]."\",
-							  email = \"".$_POST[email]."\",
-							  password = \"".$_POST[pass]."\""; 
+							  member_nama = \"".$_POST[nama]."\",
+							  member_username = \"".$_POST[username]."\",
+							  member_email = \"".$_POST[email]."\",
+							  member_password = \"".$_POST[pass]."\""; 
 						 
 							$query = mysql_query($sql) or die (mysql_error());
 							if ($query) 
